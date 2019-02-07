@@ -80,9 +80,9 @@ coolest_one
 	def organize_schools(array)
 school_location = {}
 array.each do |school_names, data|
-	binding.pry
+	#binding.pry
 	data.each do |key, city|
-		binding.pry
+	#	binding.pry
 		 if school_location[city] == nil
 		 	school_location[city] = [school_names]
 		 else
